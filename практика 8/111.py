@@ -88,7 +88,7 @@ def comm(w):
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-_name", type=str, help="file name")
-parser.add_argument("-nomber", "--action", type=int, help="comand nomber")
+parser.add_argument("-number", "--action", type=int, help="comand number")
 parser.add_argument("-sec_file", "--second_file", type=str, help="second file name", required=False)
 args = parser.parse_args()
 
